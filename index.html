@@ -1,148 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>AOL Desktop Gold Blog Hub - Complete Installation & Troubleshooting Guides</title>
+    <title>AOL Desktop Gold Help Centre - Installation & Troubleshooting Guides</title>
+
     <style>
-        body {
+        body{
+            margin:0;
             font-family: Arial, sans-serif;
-            margin: 0;
-            background: #f4f6f9;
-            color: #222;
+            background:#f4f6f9;
+            color:#222;
         }
-        header {
-            background: #0b3d91;
-            color: white;
-            padding: 20px;
-            text-align: center;
+
+        .header{
+            background:#0b3d91;
+            color:white;
+            padding:20px;
+            text-align:center;
         }
-        nav {
-            background: #062a63;
-            padding: 10px;
-            text-align: center;
+
+        .logo{
+            font-size:24px;
+            font-weight:bold;
+            letter-spacing:1px;
         }
-        nav a {
-            color: white;
-            margin: 8px;
-            text-decoration: none;
-            font-size: 14px;
+
+        nav{
+            background:#062a63;
+            padding:10px;
+            text-align:center;
         }
-        .container {
-            max-width: 1100px;
-            margin: auto;
-            padding: 20px;
-            background: white;
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:10px;
+            font-size:14px;
         }
-        h1 {
-            color: #0b3d91;
+
+        .container{
+            max-width:1100px;
+            margin:auto;
+            background:white;
+            padding:25px;
         }
-        .post-list a {
-            display: block;
-            padding: 10px;
-            margin: 8px 0;
-            background: #eef3ff;
-            border-left: 5px solid #0b3d91;
-            text-decoration: none;
-            color: #111;
+
+        h1{
+            color:#0b3d91;
         }
-        .post-list a:hover {
-            background: #dde8ff;
+
+        h2{
+            margin-top:25px;
+            color:#062a63;
         }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #0b3d91;
-            color: white;
-            margin-top: 30px;
+
+        .intro{
+            line-height:1.6;
+            margin-bottom:20px;
+        }
+
+        .grid{
+            display:grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap:15px;
+            margin-top:20px;
+        }
+
+        .card{
+            background:#eef3ff;
+            padding:15px;
+            border-left:5px solid #0b3d91;
+            transition:0.3s;
+        }
+
+        .card:hover{
+            background:#dde8ff;
+        }
+
+        .card a{
+            text-decoration:none;
+            color:#0b3d91;
+            font-weight:bold;
+        }
+
+        footer{
+            text-align:center;
+            padding:20px;
+            background:#0b3d91;
+            color:white;
+            margin-top:30px;
         }
     </style>
 </head>
+
 <body>
 
-<header>
-    <h1>AOL Desktop Gold Complete Guide Blog Hub</h1>
-    <p>Installation, Troubleshooting, Download & Recovery Guides</p>
+<header class="header">
+    <div class="logo">AOL Help Centre</div>
+    <p>Installation • Reinstallation • Troubleshooting • Account Access</p>
 </header>
 
 <nav>
     <a href="index.html">Home</a>
-    <a href="blog1.html">Blog 1</a>
-    <a href="blog2.html">Blog 2</a>
-    <a href="blog3.html">Blog 3</a>
+    <a href="aol-desktop-gold-download-existing-account-setup-access.html">Start Guide</a>
 </nav>
 
 <div class="container">
 
-    <h1>Welcome to the AOL Desktop Gold Help Center</h1>
+    <h1>Welcome to AOL Desktop Gold Help Centre</h1>
 
-    <p>
-        This blog hub is designed to provide complete, step-by-step guidance for users of AOL Desktop Gold,
-        including installation, reinstall issues, troubleshooting errors, account access, and Windows compatibility fixes.
-        Whether you are a beginner setting up AOL Desktop Gold for the first time or an existing member facing login or
-        update issues, this resource will guide you through every scenario in a structured and easy-to-follow manner.
+    <p class="intro">
+        This Help Centre provides complete step-by-step guides for installing, reinstalling, downloading, and troubleshooting
+        AOL Desktop Gold. Whether you are a new user or an existing AOL member, these tutorials will help you fix common issues
+        and properly set up your desktop application on Windows systems.
     </p>
 
-    <p>
-        AOL Desktop Gold remains a widely used all-in-one desktop application that combines email, browsing, and
-        security tools in a single interface. However, users often face challenges during installation, updates,
-        or account recovery. This blog series addresses all those issues with detailed walkthroughs.
+    <p class="intro">
+        AOL Desktop Gold combines email, browsing, and security tools into one application. However, users often face installation
+        errors, login issues, update failures, or system compatibility problems. This guide hub is designed to solve all those
+        problems in a simple and structured way.
     </p>
 
-    <h2>What You Will Find Here</h2>
+    <h2>📚 All Help Centre Articles</h2>
 
-    <p>
-        Each guide in this collection is structured to solve a specific problem or task. From downloading AOL Desktop Gold
-        on Windows 10 or Windows 11 to reinstalling it without losing data, every topic is covered in detail. You will also
-        find troubleshooting solutions for common errors such as the application not opening, freezing, or failing to update.
-    </p>
+    <div class="grid">
 
-    <p>
-        We also focus on safe installation practices for existing AOL members, ensuring your account data remains secure during
-        setup or reinstallation. These guides are designed to be beginner-friendly while still useful for advanced users.
-    </p>
+        <div class="card">
+            <a href="aol-desktop-gold-download-existing-account-setup-access.html">
+                1. Download Existing Account Setup & Access Guide
+            </a>
+        </div>
 
-    <h2>Complete Blog List</h2>
+        <div class="card">
+            <a href="aol-desktop-gold-install-current-member-pc.html">
+                2. Install Current Member on PC Step-by-Step
+            </a>
+        </div>
 
-    <div class="post-list">
+        <div class="card">
+            <a href="install-existing-aol-account-without-errors.html">
+                3. Install Existing AOL Account Without Errors
+            </a>
+        </div>
 
-        <a href="blog1.html">1. Complete Guide for AOL Desktop Gold Download Existing Account Setup and Access</a>
-        <a href="blog2.html">2. Step-by-Step Instructions for AOL Desktop Gold Install Current Member on Your PC</a>
-        <a href="blog3.html">3. Easy Methods to Install Existing AOL Account Without Errors</a>
-        <a href="blog4.html">4. Secure Access via AOL Gold Desktop Download Official Site for New Installation</a>
-        <a href="blog5.html">5. Beginner-Friendly Steps to Install AOL Gold on Windows Systems</a>
-        <a href="blog6.html">6. Quick Fix Guide to Reinstall AOL Desktop Gold Current Member Issues</a>
-        <a href="blog7.html">7. How to Download AOL Desktop Gold Existing Member Safely and Correctly</a>
-        <a href="blog8.html">8. Troubleshooting Guide to Reinstall AOL Gold This PC Without Losing Data</a>
-        <a href="blog9.html">9. Full Installation Walkthrough for AOL Gold Desktop Install on Any Device</a>
-        <a href="blog10.html">10. Simple Process to Download and Install AOL Desktop Gold in Minutes</a>
-        <a href="blog11.html">11. Best Tips for AOL Downloads for Existing Members AOL Gold Access Problems</a>
-        <a href="blog12.html">12. Reliable Guide for AOL Desktop Gold Download Existing Account Recovery</a>
-        <a href="blog13.html">13. Windows 11 Setup Guide for AOL Gold Download Windows 11 Existing Member</a>
-        <a href="blog14.html">14. Fix and Restore Using AOL Desktop Gold Download Reinstall Method</a>
-        <a href="blog15.html">15. Complete Reinstallation Help for Reinstall AOL Desktop Gold Users</a>
-        <a href="blog16.html">16. Advanced Steps to Reinstall AOL Desktop Gold to Windows Download Properly</a>
-        <a href="blog17.html">17. Easy Installation Support for Install AOL Gold Download Without Issues</a>
-        <a href="blog18.html">18. Full FAQ Guide: AOL Desktop Gold Reinstall & Getting Started Help</a>
-        <a href="blog19.html">19. Troubleshooting Errors & Fixes for AOL Desktop Gold Not Responding Issues</a>
-        <a href="blog20.html">20. Download & Compatibility Guide for AOL Desktop Gold Windows 10/11 Fixes</a>
+        <div class="card">
+            <a href="aol-gold-official-site-new-installation.html">
+                4. Official Site New Installation Guide
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="install-aol-gold-windows-systems-beginners.html">
+                5. Beginner-Friendly Windows Installation Guide
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="reinstall-aol-desktop-gold-current-member-fix.html">
+                6. Reinstall Current Member Fix Guide
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="download-aol-desktop-gold-existing-member-safe.html">
+                7. Safe Download for Existing Members
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="reinstall-aol-gold-this-pc-without-losing-data.html">
+                8. Reinstall Without Losing Data
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="aol-gold-install-walkthrough-any-device.html">
+                9. Full Installation Walkthrough
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="download-install-aol-desktop-gold-minutes.html">
+                10. Install AOL Desktop Gold in Minutes
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="aol-downloads-existing-members-access-problems.html">
+                11. Existing Member Access Problems Fix
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="aol-desktop-gold-account-recovery-guide.html">
+                12. Account Recovery Guide
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="aol-gold-windows-11-setup-guide.html">
+                13. Windows 11 Setup Guide
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="aol-desktop-gold-download-reinstall-fix.html">
+                14. Download Reinstall Fix Method
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="reinstall-aol-desktop-gold-complete-help.html">
+                15. Complete Reinstallation Help
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="reinstall-aol-gold-advanced-steps-windows.html">
+                16. Advanced Windows Reinstall Steps
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="install-aol-gold-without-issues-guide.html">
+                17. Install Without Issues Guide
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="aol-desktop-gold-faq-reinstall-getting-started.html">
+                18. FAQ & Getting Started Guide
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="aol-desktop-gold-troubleshooting-errors-fix.html">
+                19. Troubleshooting Errors & Fixes
+            </a>
+        </div>
 
     </div>
 
-    <h2>About This Series</h2>
+    <h2>📌 About This Help Centre</h2>
 
-    <p>
-        This blog series is continuously structured for clarity and consistency. Every article follows the same design system,
-        ensuring easy navigation and a smooth reading experience. Internal linking between posts helps users move between
-        related troubleshooting and installation topics without confusion.
+    <p class="intro">
+        Each article is written to solve a specific AOL Desktop Gold issue such as installation failures, login problems,
+        update errors, and compatibility issues. The goal is to make troubleshooting simple, fast, and accessible for all users.
     </p>
 
-    <p>
-        Start with Blog 1 if you are a new user, or jump directly to troubleshooting guides if you are facing a specific issue.
+    <p class="intro">
+        Start with the first guide if you are setting up AOL Desktop Gold for the first time, or jump directly to a troubleshooting
+        article if you are facing a specific issue.
     </p>
 
 </div>
 
 <footer>
-    © 2026 AOL Desktop Gold Guide Hub | All Rights Reserved
+    © 2026 AOL Help Centre | All Rights Reserved
 </footer>
 
 </body>
